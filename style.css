@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(black,pink,grey,white,pink, white, grey,pink,black);
+    background-size: contain;
+}
+#face{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15%;
+    box-shadow: 5px 5px 5px 2px black;
+}
+#eyes
+{
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    padding-top: 55px;
+}
+#leye{
+    height: 50px;
+    width: 25px;
+    background: black;
+    border-radius: 50%;
+    
+    box-shadow: 5px 5px 5px black ;
+}
+
+#reye{
+    height: 50px;
+    width: 25px;
+    background: black;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px black;
+}
+
+#mouth{
+    height: 18px;
+    width: 75px;
+    background: white;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid black;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius:50% ;
+}
+#tongue{
+    height: 55px;
+    width: 25px;
+    background: palevioletred;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px black;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius:50% ;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
